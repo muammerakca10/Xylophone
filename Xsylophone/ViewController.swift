@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     
    
     @IBAction func keyTapped(_ sender: UIButton) {
-        guard let text = sender.currentTitle else {return}
-        
+        guard let text = sender.titleLabel?.text else {return}
+        playSound("Sounds/\(text)")
         
     }
     
