@@ -19,58 +19,39 @@ class ViewController: UIViewController {
     
     
     @IBAction func aKeyTapped(_ sender: UIButton) {
-        playSound()
-        print("Tapped A")
+        playSound(resource: "Sounds/A")
     }
     
     @IBAction func bKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/B")
     }
     
     @IBAction func cKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/C")
     }
     
     @IBAction func dKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/D")
     }
     
     @IBAction func eKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/E")
     }
     
     @IBAction func fKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/F")
     }
     
     @IBAction func gKeyTapped(_ sender: Any) {
+        playSound(resource: "Sounds/G")
     }
     
-//    func playSound() {
-//        print("A will play")
-//
-//        guard let path = Bundle.main.path(forResource: "A", ofType:"wav") else { return }
-//
-//        let url = URL(fileURLWithPath: path)
-//
-//        do {
-//
-//            player = try AVAudioPlayer(contentsOf: url)
-//            print("player assigned")
-//
-//            player?.play()
-//            print("A played")
-//
-//        } catch let error {
-//
-//            print(error.localizedDescription)
-//
-//        }
-//
-//    }
-//
-//}
-
-    func playSound(){
+    
+    func playSound(resource : String){
         
         print("A will play")
         
-        guard let url = Bundle.main.url(forResource: "Sounds/A", withExtension: "wav") else {return}
+        guard let url = Bundle.main.url(forResource: resource, withExtension: "wav") else {return}
         
         print("url assign ok")
 
