@@ -49,16 +49,16 @@ class ViewController: UIViewController {
     
     func playSound(resource : String){
         
-        print("A will play")
+        print("\(resource) going to play")
         
         guard let url = Bundle.main.url(forResource: resource, withExtension: "wav") else {return}
         
-        print("url assign ok")
+        //print("url assign ok")
 
         do{
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
             
-            print("Set category ok")
+            //print("Set category ok")
             
             try AVAudioSession.sharedInstance().setActive(true)
 
@@ -66,11 +66,10 @@ class ViewController: UIViewController {
             guard let player = player else {return}
 
             player.play()
-            print("A played")
+            print("\(resource) played")
 
         }catch let error {
             print(error.localizedDescription)
-            print("Error")
         }
     }
 }
