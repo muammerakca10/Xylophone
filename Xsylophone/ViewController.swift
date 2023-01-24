@@ -18,36 +18,16 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func aKeyTapped(_ sender: UIButton) {
-        playSound(resource: "Sounds/A")
-    }
-    
-    @IBAction func bKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/B")
-    }
-    
-    @IBAction func cKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/C")
-    }
-    
-    @IBAction func dKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/D")
-    }
-    
-    @IBAction func eKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/E")
-    }
-    
-    @IBAction func fKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/F")
-    }
-    
-    @IBAction func gKeyTapped(_ sender: Any) {
-        playSound(resource: "Sounds/G")
+   
+    @IBAction func keyTapped(_ sender: UIButton) {
+        guard let text = sender.currentTitle else {return}
+        
+        
     }
     
     
-    func playSound(resource : String){
+    
+    func playSound(_ resource : String){
         
         print("\(resource) going to play")
         
