@@ -30,6 +30,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="cKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7F8-U0-wzP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -51,6 +54,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="dKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fAV-t3-Orb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -74,6 +80,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="eKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkz-R7-x51"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -97,6 +106,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="fKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TIh-B8-2eX"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -120,6 +132,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="gKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mf8-zy-pKZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -143,6 +158,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="aKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xZX-zx-OEu"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
@@ -166,6 +184,9 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                                     <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="bKeyTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6mH-dR-E8f"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>

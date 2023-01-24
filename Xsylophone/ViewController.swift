@@ -15,5 +15,25 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func aKeyTapped(_ sender: UIButton) {
+    }
+    
+    @IBAction func bKeyTapped(_ sender: Any) {
+    }
+    
+    @IBAction func cKeyTapped(_ sender: Any) {
+    }
+    
+    @IBAction func dKeyTapped(_ sender: Any) {
+    }
+    
+    @IBAction func eKeyTapped(_ sender: Any) {
+    }
+    
+    @IBAction func fKeyTapped(_ sender: Any) {
+    }
+    
+    @IBAction func gKeyTapped(_ sender: Any) {
+    }
 }
 
