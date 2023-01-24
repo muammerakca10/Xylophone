@@ -21,7 +21,11 @@ class ViewController: UIViewController {
    
     @IBAction func keyTapped(_ sender: UIButton) {
         guard let text = sender.titleLabel?.text else {return}
+        sender.alpha = 0.5
         playSound("Sounds/\(text)")
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2 ){
+            sender.alpha = 1
+        }
         
     }
     
